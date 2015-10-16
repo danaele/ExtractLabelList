@@ -16,7 +16,6 @@ int main ( int argc, char *argv[] )
         std::cerr << "Usage: " << argv[0] << " InputFilename: vtk surface with color " << endl;
         return EXIT_FAILURE;
     }
-    std::cout<<"hello"<<std::endl;
     // Get the filename from the command line
     std::string fileName = argv[1];
 
